@@ -1,0 +1,44 @@
+body {
+    background-color: #ed5565;
+}
+h1 {
+    color: #ffce54;
+    margin-left: 20px;
+}
+button {
+    border: none;
+    position: relative;
+    right: 0;
+    color: #ffce54;
+    background-color: #fc6e51;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.link-image
+{
+  height: 400px;
+  width: 400px;
+  margin: 10px 10px 10px 10px;
+  border: 5px black;
+}
+.element-text{
+  color: #ffce54;
+  text-align: center;
+  font-size: 32px;
+  text-align: left;
+}
+ .column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 

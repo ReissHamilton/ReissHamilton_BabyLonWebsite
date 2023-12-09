@@ -1,0 +1,21 @@
+# Documentation 
+# Element 5
+
+Element 5 consists of a mixture between what I've learned between each of the other 4 elements and trying out some of the other parts of the Babylon documentation to make something I'm truly happy with.
+
+For what is included into element five is a beginning menu scene with a play button that transitions into a game scene once the button has been clicked.
+
+Once the game scene has been loaded it will open a scene with a lava textured ground surrounded by marble walls with marble floors scattered around the ground.
+
+Several of these marbles’ floors will be suspended within the air floating around to give a more otherworldly presence as if the scene is of some place not of this world. Along with that there will be small lighting reflecting off of the floating floors to help emphasize this.
+
+Lastly, I allowed for a player module to walk around the area as a way to give perspective on the scale of the arena, to once again help emphasize the layout of the scene and give more life to it
+
+For the menu scene and game scene that was changed within a press of a single button, I reinvented from element 4 using a index list and setting the index for each scene correctly and then it was just a matter of allowing the button to change the current scene index, making it possible to move from one scene to the other.
+
+Then for the lava and marble textures I used from Babylon documentation installing an extension called MarbleProceduralTexture and LavaProceduralTexture, which allowed for me to create textures that gave a better atmosphere than the regular textures featured within the other elements. 
+
+Along with that I used the same method within element 1 to create lighting onto the suspended floors and have them rotating within the air. This involved creating functions to create both the objects and lighting and giving them the correct parameter constricts in order to have them effectively placed within the level and displayed accordingly 
+
+Finishing off with the player model was used from element 3 which consists of using the Havok physics that allow for objects collide and react based of off the physics given to them, I allowed for none of the objects to collide with the player to have it more off a scene to look at and examine more than collide with and destroy as I felt like if you could move everything around it would ruin parts of the scene.
+
